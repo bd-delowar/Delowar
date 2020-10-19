@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<style type="text/css">
+	body { margin: 0; }
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto auto ;
+		background-color: black;
+		grid-gap: 30px;
+		padding: 30px;
+	}
+
+	.grid-container > div {
+		background-color: grey;
+		color: white;
+		text-align: center;
+		font-size: 30px;
+		padding: 30px;
+	}
+
+	.item2 {
+		grid-area: 1/2/5/6;
+	}
+
+	.item9 { height: 100px; }
+
+
+	@media only screen and (max-width: 1000px) {
+		.grid-container {
+			grid-template-columns: auto auto ;
+		background-color: red;
+		grid-gap: 30px;
+		padding: 30px;
+	}
+
+	}
+
+</style>
+
+	<div class="grid-container">
+		<div class="item1">1<p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p></div>
+		<div class="item2"><p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p><p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p><p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p><p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p></div>
+		<div class="item3"><p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p>3</div>
+		<div class="item4">4</div>
+		<div class="item5">5<p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p></div>
+		<div class="item6">6</div>
+		<div class="item7">7</div>
+		<div class="item8"><p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p>8</div>
+		<div class="item9">9</div>
+		<div class="item10">10</div>
+		<div class="item11">11<p>Whether you’re an established enterprise or are your most impactful work.</p></div>
+		<div class="item12">12<p>Whether you’re an established enterprise or a growing startup, discover spaces that inspire your most impactful work.</p></div>
+		<div class="item13">13</div>
+		<div class="item14">14</div>
+		<div class="item15">15</div>
+
+	</div>
+</body>
+</html>

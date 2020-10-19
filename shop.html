@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Shop</title>
+
+  <style type="text/css">
+    .card {
+    padding: 0;
+    border: none;
+    margin: auto;
+    transition: 1s;
+  }
+
+      .card h6 {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+
+.product-image img {width: 100%;height: 100%;transition: transform .5s;margin: 0;}
+.product-image {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 0px;
+  }
+
+.discount {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background: green;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    width: 58px;
+    text-align: center;
+    display: none;
+    transition: transform .2s;
+  }
+
+  .pro-review { float: right; }
+
+
+.card:hover .discount { display: block; transition: 1s; }
+.search-filter {display: inline-flex;width: 86%;}
+
+.product .fas {color: #ff9900;font-size: 14px;}
+.shoping-section .custom-select { 
+  width: 62%;
+  margin-left: 15px; 
+}
+
+
+
+.product-image:hover img {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+.shoping-section .custom-select  {height: 60px;border: 2px solid #eaeae5b3;background: #f5f5f2;width: 78%;}
+
+  .signup-section {padding: 30px 0; height: auto; }
+  .signup-section h2 {color: #fff;font-size: 25px; margin: 30px 0; padding: 0;}
+  .signup-section form {margin-top: 50px;}
+  </style>
+
+
+</head>
+
+<body>
+
+<div class="about-header-section">
+<div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Home <span class="sr-only">(current)</span>
+        </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="home.html">Home Main</a>
+                <a class="dropdown-item" href="home-coworking.html">Home Coworking</a>
+                <a class="dropdown-item" href="home-hot.html">Home Hot</a>
+                <a class="dropdown-item" href="home-privet.html">Home Privet</a>
+                <a class="dropdown-item" href="home-saas.html">Home Saas</a>
+                <a class="dropdown-item" href="home-virtual.html">Home Virtual</a>
+                <a class="dropdown-item" href="news.html">News</a>
+                <a class="dropdown-item" href="Project-single.html">Project Single</a>
+                <a class="dropdown-item" href="Service.html">Service</a>
+                <a class="dropdown-item" href="shop.html">Shop</a>
+                <a class="dropdown-item" href="single-post.html">Single Post</a>
+                <a class="dropdown-item" href="single-shop.html">Single Shop</a>
+                <a class="dropdown-item" href="work.html">Work</a>
+                <a class="dropdown-item" href="shop.html">Shop</a>
+                <a class="dropdown-item" href="single-shop.html">Shop Single</a>
+                <a class="dropdown-item" href="single-post.html">Single Post</a>
+                <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="service.html">Service</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="Location.html">Location</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="Contact.html">Contract</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fas fa-search-plus"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</div>
+<div class="hero-section text-center">
+  <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="head-content">
+            <h1>Work has no felt so good</h1>
+             <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Shop</li>
+              </ol>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+<div class="shoping-section">
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-8">
+          <p>Showing 1-9 of 20 results</p>
+        </div>
+        <div class="col-4">
+          <div class="search-filter  form-inline row">
+            <p class="">Sort by </p>
+                <select class="custom-select" id="validationCustom04" required="">
+                <option selected="" disabled="" value="">Choose...</option>
+                <option>...</option>
+              </select>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-content">
+      <div class="row">
+
+        <div class="col-3">
+          <a href="single-shop.html">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/n.jpg">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+   
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/m.jpg">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+       
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+    
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-3">
+          <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/pp.jpg">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+  
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/pp2.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+
+<div class="col-3">
+  <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+          
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+         
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="product">
+            <div class="card">
+              <div class="product-image">
+                <img src="images/product.png">
+                <span class="discount">50%</span>
+              </div>
+              <div class="product-disc">
+                <h6>Modern Desk</h6>
+                <div class="pprice">
+                  <p>$1500 <del>$2000</del><span class="pro-review">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+
+                  </span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+
+
+<style type="text/css">
+  .filter-catagories {
+    padding: 0 29px;
+}
+  .filter-catagories h4 {
+    margin-bottom: 17px;
+}
+  .filter-catagories li {
+    font-size: 18px;
+    padding: 20px 0px;
+    border-bottom: 2px solid #cccccc;
+}
+
+
+</style>
+
+
+        <div class="col-3">
+          <div class="filter-catagories">
+            <h4>Product Cetagories</h4>
+            <ul class="list-unstyled">
+                <li>Chair</li>
+                <li>Desk</li>
+                <li>Table</li>
+                <li>Sofa</li>
+              </ul>
+          <div class="filter-range">
+            <h5>Filter by Price</h5>
+          </div>
+
+
+
+
+
+
+<style type="text/css">
+  [slider] {
+  width: 300px;
+  position: relative;
+  height: 5px;
+  margin: 45px 0 10px 0;
+}
+
+[slider] > div {
+  position: absolute;
+  left: 13px;
+  right: 15px;
+  height: 5px;
+}
+[slider] > div > [inverse-left] {
+  position: absolute;
+  left: 0;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #CCC;
+  margin: 0 7px;
+}
+
+[slider] > div > [inverse-right] {
+  position: absolute;
+  right: 0;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #CCC;
+  margin: 0 7px;
+}
+
+
+[slider] > div > [range] {
+  position: absolute;
+  left: 0;
+  height: 5px;
+  border-radius: 14px;
+  background-color: #9b65fb;
+}
+
+[slider] > div > [thumb] {
+  position: absolute;
+  top: -7px;
+  z-index: 2;
+  height: 20px;
+  width: 20px;
+  text-align: left;
+  margin-left: -11px;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  background-color: #FFF;
+  border-radius: 50%;
+  outline: none;
+}
+
+[slider] > input[type=range] {
+  position: absolute;
+  pointer-events: none;
+  -webkit-appearance: none;
+  z-index: 3;
+  height: 14px;
+  top: -2px;
+  width: 100%;
+  opacity: 0;
+}
+
+div[slider] > input[type=range]:focus::-webkit-slider-runnable-track {
+  background: transparent;
+  border: transparent;
+}
+
+div[slider] > input[type=range]:focus {
+  outline: none;
+}
+
+div[slider] > input[type=range]::-webkit-slider-thumb {
+  pointer-events: all;
+  width: 28px;
+  height: 28px;
+  border-radius: 0px;
+  border: 0 none;
+  background: red;
+  -webkit-appearance: none;
+}
+
+div[slider] > input[type=range]::-ms-fill-lower {
+  background: transparent;
+  border: 0 none;
+}
+
+div[slider] > input[type=range]::-ms-fill-upper {
+  background: transparent;
+  border: 0 none;
+}
+
+div[slider] > input[type=range]::-ms-tooltip {
+  display: none;
+}
+
+[slider] > div > [sign] {
+  opacity: 0;
+  position: absolute;
+  margin-left: -11px;
+  top: -39px;
+  z-index:3;
+  background-color: #d02128;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+[slider] > div > [sign]:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  border-radius: 16px;
+  top: 19px;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top-width: 16px;
+  border-top-style: solid;
+  border-top-color: #d02128;
+}
+
+[slider] > div > [sign] > span {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+[slider]:hover > div > [sign] {
+  opacity: 1;
+}
+
+
+
+.button-filter {
+  width: 137px;
+    background: white;
+    font-size: 18px;
+    border: 2px solid #cccccc;
+    margin-top: 32px;
+}
+</style>
+
+
+
+<div slider id="slider-distance">
+  <div>
+    <div inverse-left style="width:70%;"></div>
+    <div inverse-right style="width:70%;"></div>
+    <div range style="left:0%;right:0%;"></div>
+    <span thumb style="left:0%;"></span>
+    <span thumb style="left:100%;"></span>
+    <div sign style="left:0%;">
+      <span id="value">0</span>
+    </div>
+    <div sign style="left:100%;">
+      <span id="value">100</span>
+    </div>
+  </div>
+  <input type="range" value="0" max="2500" min="100" step="1" oninput="
+  this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+  let value = (this.value/parseInt(this.max))*100
+  var children = this.parentNode.childNodes[1].childNodes;
+  children[1].style.width=value+'%';
+  children[5].style.left=value+'%';
+  children[7].style.left=value+'%';children[11].style.left=value+'%';
+  children[11].childNodes[1].innerHTML=this.value;" />
+
+  <input type="range" value="100" max="2500" min="100" step="1" oninput="
+  this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+  let value = (this.value/parseInt(this.max))*100
+  var children = this.parentNode.childNodes[1].childNodes;
+  children[3].style.width=(100-value)+'%';
+  children[5].style.right=(100-value)+'%';
+  children[9].style.left=value+'%';children[13].style.left=value+'%';
+  children[13].childNodes[1].innerHTML=this.value;" />
+</div>
+
+
+
+
+
+
+
+
+<div class="button">
+  <button class="btn button-filter">Filter</button>
+</div>
+
+
+
+
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="signup-section">
+    <div class="container">
+      <div class="form text-center section-heading">
+        <h2>Sign up and become one of the millions of people around the world using Workspaces to get more done.</h2>
+            <form class="form-inline justify-content-center">
+              <input class="form-control mr-sm-2 form-edit" type="email" placeholder="Enter your email" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0 btn-customize" type="submit">Sign Up</button>
+            </form>
+        <p>Get the app for Windows PC, Mac, Linux, Chrome</p>        
+      </div>
+    </div>
+  </div>
+
+
+
+
+<div class="footer-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="f-header">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png">
+        </a>
+        </div>
+        <p>Sign up and become one of the millions of people around
+the world using Workspaces to get more done</p>
+<address>
+  <a href="tel:+1) 212-700-2700 " class="phone">+1) 212-700-2700</a><br>
+  <a href="mailto:Hello@workspaces.com" class="email">Hello@workspaces.com</a>
+</address>
+      </div>
+      <div class="col-3">
+        <div class="f-header">
+          <h4>Our Company</h4>
+        </div>
+        <ul class="list-unstyled">
+              <li class=""><a href="#">Our Location</a></li>
+              <li class=""><a href="#">Location</a></li>
+              <li class=""><a href="#">Carrier</a><span class="mess"> We are Hiring</span></li>
+              <li class=""><a href="#">Location</a></li>
+              <li class=""><a href="#">Location</a></li>
+          </ul>
+      </div>
+      <div class="col-3">
+        <div class="f-header">
+          <h4>Our Company</h4>
+        </div>
+        <ul class="list-unstyled">
+              <li class=""><a href="#">Our Location</a></li>
+              <li class=""><a href="#">Location</a></li>
+              <li class=""><a href="#">Carrier</a></li>
+              <li class=""><a href="#">Location</a></li>
+              <li class=""><a href="#">Location</a></li>
+          </ul>
+      </div>
+      <div class="col-3">
+        <div class="f-header">
+          <h4>Our Company</h4>
+        </div>
+        <ul class="list-unstyled">
+              <li class=""><a href="#">Our Location</a></li>
+              <li class=""><a href="#">Location</a></li>
+              <li class=""><a href="#">Location</a></li>
+          </ul>
+<div class="social-list">
+<ul class="list-inline">
+  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+  <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+</div>
+      </div>
+    </div>
+
+    <div class="footer-bottom text-center">
+      <p>©2020 Workspaces by Viworx-Co. All Rights Reserved | Privacy Policy | Terms and Conditions | <a href="#">
+      Cookie Policy </a></p>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+ <script type="text/javascript">
+   
+$(function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 1,
+      max: 14,
+      values: [ 1, 14 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+});
+
+
+
+ </script>
+  </body>
+</html>

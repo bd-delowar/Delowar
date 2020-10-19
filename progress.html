@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Progress Bar</title>
+	<style type="text/css">
+		.container {
+			max-width: 1000px;
+			margin: auto;
+		}
+
+		#Progress {
+			width: 100%;
+			height: 20px;
+			background-color: grey;
+			margin: 200px 0;
+		}
+
+
+		#progress-bar {
+			width: 10%;
+			background-color: orange;
+			height: 20px;
+			position: relative;
+		}
+
+		#progress-text {
+			font-size: 30px;
+			color: orange;
+			font-weight: 900;
+			position: absolute;
+			top: -40px;
+			right: 0;
+		}
+
+
+
+
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<h1 style="text-align: center; font-weight: bold;">Progress Bar</h1>
+		<div id="Progress">
+			<div id="progress-bar">
+				<div id="progress-text">
+					10%
+				</div>
+			</div>
+		</div>
+	</div>
+
+<style type="text/css">
+	.chart-section {margin: auto;background: green;display: inline-flex;/* width: 50%; */border: 2px solid green;border-radius: 5px;}
+	.input-section, .button-section {/* display: inline; */}
+	input, button { height: 30px;}
+	input {width: 150px;height: 60px;font-size: 32px;font-weight: 800;color: red;background: white;}
+	button {height: 66px;width: 150px;border: none;background-color: green;color: white;font-size: 15px;font-weight: 900;}
+	input:focus{ outline:none; }
+ button:focus { outline:none; }
+
+
+ input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: ;
+  margin: 0;
+  font-size: 40px;
+  color: red;
+}
+
+
+</style>
+
+<div class="chart-section">
+	<div class="input-section">
+		<input type="number" name="Quantity" value="1" min="1" max="10">
+	</div>
+	<div class="button-section">
+		<button type="button" class="btn btn-primary">Add to chart</button>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+/*	var bar =document.getElementById('progress-bar');
+	var text =document.getElementById('progress-text');
+
+	var width = 10;
+	var time = setInterval(frame, 50);
+	function frame() {
+		if (width >= 100) {
+			clearInterval(time);
+		} else {
+			width++;
+			bar.style.width = width + "%";
+			text.innerHTML = width + "%";
+		}
+	}
+*/
+</script>
+
+
+</body>
+</html>

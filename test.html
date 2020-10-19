@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	* {margin: 0;}
+</style>
+</head>
+<body>
+
+<style type="text/css">
+
+	#progress { 
+		width: 100%; 
+		background-color: red; 
+		height: 10px; 
+	}
+	#bar, #bar2, #bar3, #bar4 {
+		width: 0%; 
+		height: 10px; 
+		background-color: green; 
+		position: relative;
+	}
+	#text {position: absolute; 
+		top: -45px; 
+		font-size: 40px; 
+		right: 0;
+	}
+
+
+</style>
+
+
+<div id="progress">
+	<div id="bar" style="width: 40%; bottom: 0;" >
+		<div id="text">10%</div>
+	</div>
+</div>
+
+	<div id="bar2" style="width: 10px">
+		<div id="text"></div>
+	</div>
+
+
+
+
+
+<script type="text/javascript">
+	var b = document.getElementById('bar');
+	var b2 = document.getElementById('bar2');
+	var b3 = document.getElementById('bar3');
+	var t = document.getElementById('text');
+
+	var w = 0;
+	var i = setInterval(frame, 10);
+	function frame() {
+		if (w >= 100) {
+			clearInterval(i);
+		} else {
+			w++;
+			b.style.width = w + "%";
+			t.innerHTML = w + "%";
+		}
+	}
+
+var h = 10;
+var u = setInterval(fram, 10);
+function fram() {
+	if (w = 100 && h >= 600) {
+		clearInterval(u);
+	} else {
+		h++;
+		b2.style.height = h + "px";
+	}
+}
+
+
+
+</script>
+	
+
+
+</body>
+</html>
